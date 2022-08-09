@@ -1,3 +1,9 @@
-body {
-    font-family: Canela-Light,Helvetica,Arial,sans-serif;
+@font-face {
+    font-family: "Canela";
+    src: url("https://github.com/elaine-keller/elaine-keller.github.io/blob/main/fonts/Canela-Light-Web.woff") format("woff"),
+    url("https://github.com/elaine-keller/elaine-keller.github.io/blob/main/fonts/Canela-Light-Web.woff2") format("woff2");
+    }
+    
+    body {
+    font-family: Canela,Helvetica,Arial,sans-serif;
 }
