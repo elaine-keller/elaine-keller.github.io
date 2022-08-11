@@ -3,13 +3,38 @@
     <head>
         <meta charset="UTF-8">
         <title>Elaine's Portfolio</title>
-        <link rel="stylesheet" href="styles.css">
+
+        <!--====== Stylesheet ======-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--====== Slick CSS ======-->
+    <link rel="stylesheet" href="css/animate.css">
+
     </head>
     <body>
+
+     <div id="includedContent"></div>
         <H1>
-        Elaine is an experienced product designer, a problem solver with a strong passion for simplifying complexity.</H1>
-An empathetic, active listener, strategic thinker, and collaborative team player.
-I’ve worked at: Fabrica Collective, Google, McCann , Adobe, Sapient, R/GA, and a startup called Pundit Club.
+            Hello.<br>
+            I'm Elaine Keller.
+        </H1>
+<h2><p>An experienced product designer, a problem solver with a strong passion for simplifying complexity.</p>
+    
+    <p>An empathetic, active listener, strategic thinker, and collaborative team player.</p></h2>
+
+<p>Currently, I am working towards completing the MERN Full Stack program with MITxPRO.</p>
+<p>I've worked at: Fabrica Collective, Google, McCann , Adobe, Sapient, R/GA, and a startup called Dealerware.</p>
+<!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+$.get("nav.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+</script>
         
 
     </body>

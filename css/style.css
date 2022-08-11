@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+@font-face {
+    font-family: 'Canela Web';
+    src: url('https://github.com/elaine-keller/elaine-keller.github.io/blob/main/fonts/Canela-BoldItalic-Web.woff2') format('woff2'),
+         url('https://github.com/elaine-keller/elaine-keller.github.io/blob/main/fonts/Canela-BoldItalic-Web.woff') format('woff');
+    font-weight:  700;
+    font-style:   italic;
+    font-stretch: normal;
+  }
+  
+  .Canela-BoldItalic-Web {
+    font-family: 'Canela Web';
+    font-weight:  700;
+    font-style:   italic;
+    font-stretch: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Canela Web';
+    src: url('https://github.com/elaine-keller/elaine-keller.github.io/blob/main/fonts/Canela-Bold-Web.woff2') format('woff2'),
+         url('https://github.com/elaine-keller/elaine-keller.github.io/blob/main/fonts/Canela-Bold-Web.woff') format('woff');
+    font-weight:  700;
+    font-style:   normal;
+    font-stretch: normal;
+  }
+  
+  .Canela-Bold-Web {
+    font-family: 'Canela Web';
+    font-weight:  700;
+    font-style:   normal;
+    font-stretch: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Canela Web';
+    src: url('fonts/Canela-LightItalic-Web.woff2') format('woff2'),
+         url('fonts/Canela-LightItalic-Web.woff') format('woff');
+    font-weight:  300;
+    font-style:   italic;
+    font-stretch: normal;
+  }
+  
+  .Canela-LightItalic-Web {
+    font-family: 'Canela Web';
+    font-weight:  300;
+    font-style:   italic;
+    font-stretch: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Canela Web';
+    src: url('fonts/Canela-Light-Web.woff2') format('woff2'),
+         url('fonts/Canela-Light-Web.woff') format('woff');
+    font-weight:  300;
+    font-style:   normal;
+    font-stretch: normal;
+  }
+  
+  .Canela-Light-Web {
+    font-family: 'Canela Web';
+    font-weight:  300;
+    font-style:   normal;
+    font-stretch: normal;
+  }
+
+
+body {
+  font-family: 'Muli', sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  font-size: 20px;
+  padding: 70px;
+}
+
+h1 {
+    font-family: 'Canela Web', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 1.15;
+    letter-spacing: -.0em;
+    color: rgba(0, 0, 0, 0.8);
+    -webkit-font-smoothing: antialiased;
+}
+h2 {
+    font-family: 'Canela Web', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.15;
+    letter-spacing: -.0em;
+    color: rgba(0, 0, 0, 0.8);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 1.15;
+    letter-spacing: -.02em;
+    color: rgba(0, 0, 0, 0.8);
+    -webkit-font-smoothing: antialiased;
+  }
+
+
+
