@@ -530,3 +530,124 @@ h2 {
         top: -5px;
         right: 0; }
 
+/*===========================
+  PORTFOLIO 
+===========================*/
+.services_area {
+  background-color: #F9F9F9; }
+
+.single_portfolio {
+  padding: 30px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(196, 196, 196, 0.3);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(196, 196, 196, 0.3);
+  box-shadow: 0px 0px 10px 0px rgba(196, 196, 196, 0.3);
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  background-color: #fff; }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single_portfolio {
+      padding: 20px; } }
+  .single_portfolio .portfolio_icon i {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 46px;
+    background-color: #00A78E;
+    color: #fff;
+    border-radius: 25px;
+    border-bottom-right-radius: 0;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s; }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .single_portfolio .portfolio_icon i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 36px; } }
+  .single_portfolio .portfolio_content {
+    margin-top: 25px; }
+    .single_portfolio .portfolio_content .portfolio_title a {
+      font-size: 22px;
+      font-weight: 600;
+      color: #293651;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+      @media only screen and (min-width: 576px) and (max-width: 767px) {
+        .single_portfolio .portfolio_content .portfolio_title a {
+          font-size: 18px; } }
+    .single_portfolio .portfolio_content p {
+      margin-top: 20px;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+  .single_portfolio:hover {
+    background-color: #00A78E; }
+    .single_portfolio:hover .portfolio_icon i {
+      background-color: #fff;
+      color: #00A78E; }
+    .single_portfolio:hover .portfolio_content .portfolio_title a {
+      color: #fff; }
+    .single_portfolio:hover .portfolioxs_content p {
+      color: #fff; }
+
+/*===========================
+      11.FOOTER css 
+===========================*/
+.footer_content .footer_social {
+  margin-top: 45px; }
+  .footer_content .footer_social li {
+    display: inline-block;
+    margin: 0 10px; }
+    .footer_content .footer_social li a {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      border-radius: 50%;
+      font-size: 18px;
+      color: #646F87;
+      background-color: rgba(41, 54, 81, 0.07);
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+      .footer_content .footer_social li a:hover {
+        color: #00A78E; }
+.footer_content .email {
+  font-size: 44px;
+  font-weight: 600;
+  color: #293651;
+  margin-top: 10px; }
+  @media (max-width: 767px) {
+    .footer_content .email {
+      font-size: 20px;
+      margin-top: 25px; } }
+.footer_content .footer_menu {
+  padding-top: 20px; }
+  .footer_content .footer_menu li {
+    display: inline-block;
+    margin: 10px 20px 0; }
+    @media (max-width: 767px) {
+      .footer_content .footer_menu li {
+        margin: 10px 12px 0; } }
+    .footer_content .footer_menu li a {
+      font-size: 16px;
+      font-weight: 600;
+      color: #293651; }
+      @media (max-width: 767px) {
+        .footer_content .footer_menu li a {
+          font-size: 15px; } }
