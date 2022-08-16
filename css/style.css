@@ -598,10 +598,12 @@ h2 {
     .single_portfolio:hover .portfolio_icon i {
       background-color: #fff;
       color: #00A78E; }
-    .single_portfolio:hover .portfolio_content .portfolio_title a {
+    .single_portfolio:hover .portfolio_content .portfolio_title  a {
       color: #fff; }
-    .single_portfolio:hover .portfolioxs_content p {
+    .single_portfolio:hover .portfolio_content p {
       color: #fff; }
+      .single_portfolio:hover a {
+        color: #fff; }
 
 /*===========================
       11.FOOTER css 
